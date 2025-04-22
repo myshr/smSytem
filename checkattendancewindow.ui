@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CheckAttendanceWindow</class>
+ <widget class="QWidget" name="CheckAttendanceWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>743</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:14pt &quot;Arial Rounded MT&quot;;
+color: rgb(48, 213, 200);</string>
+   </property>
+   <property name="text">
+    <string>Check Attendance</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="attendanceTable_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>160</y>
+     <width>311</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;
+background-color: rgb(255, 255, 255);
+border-radius: 5px;
+color:black;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Total Number of presents</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Number of Absents</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>350</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(218, 218, 218);
+font: 700 9pt &quot;Arial Rounded MT&quot;;
+color: black;
+border-radius: 15px;
+border: 1px solid gray;</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

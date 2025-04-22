@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminDashboard</class>
+ <widget class="QWidget" name="AdminDashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color:white;
+font: 10pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QPushButton" name="viewAllRecordsBtn">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>190</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 213, 200);
+color:white;
+font: 9pt &quot;Arial&quot;;
+font: Arial;
+border: 1.4px solid rgb(48, 213, 200);
+border-radius: 8px
+
+</string>
+   </property>
+   <property name="text">
+    <string>View All Student Records</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modifyRecordsBtn">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>250</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 213, 200);
+color:white;
+font: 9pt &quot;Arial&quot;;
+font: Arial;
+border: 1.4px solid rgb(48, 213, 200);
+border-radius: 8px
+
+</string>
+   </property>
+   <property name="text">
+    <string>Modify Student Records</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteRecordsBtn">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>250</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 213, 200);
+color:white;
+font: 9pt &quot;Arial&quot;;
+font: Arial;
+border: 1.4px solid rgb(48, 213, 200);
+border-radius: 8px
+
+</string>
+   </property>
+   <property name="text">
+    <string>Delete Student Records</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewGradesAttendanceBtn">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>190</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 213, 200);
+color:white;
+font: 9pt &quot;Arial&quot;;
+font: Arial;
+border: 1.4px solid rgb(48, 213, 200);
+border-radius: 8px
+
+</string>
+   </property>
+   <property name="text">
+    <string>View Grades and Attendance Logs</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>340</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(218, 218, 218);
+font: 700 9pt &quot;Arial Rounded MT&quot;;
+color: black;
+border-radius: 15px</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>100</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:14pt &quot;Arial Rounded MT&quot;;
+color: rgb(48, 213, 200);
+</string>
+   </property>
+   <property name="text">
+    <string>Admin Dashboard</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

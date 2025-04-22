@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewAllRecordsWindow</class>
+ <widget class="QWidget" name="ViewAllRecordsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>721</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Student ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Student Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PIN</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Course: Grade</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Present</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Absent</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>370</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

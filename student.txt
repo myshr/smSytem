@@ -1,0 +1,28 @@
+Student ID: 2024M1127
+Name: Lyka Lamparero
+PIN: 1028
+Grades:
+- computer: 20
+- PurCom: 99
+- Religion: 13
+- English: 84
+- Math: 99
+- Fishery: 90
+Subject | Grades
+No grades available
+Present: 22
+Absent: 18
+----------------------------------------
+Student ID: 78910
+Name: Shrek D. Ogre
+PIN: 4567
+Grades:
+- Chismis: 50
+- ESP: 200
+- NSCI: 100
+Subject | Grades
+No grades available
+Present: 32
+Absent: 8
+----------------------------------------
+
